@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Or a newer target if supported by your environment
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strict": true, 
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+
+  }
+}

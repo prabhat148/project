@@ -9,8 +9,8 @@ const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
 
-   const handleSubmit = (e) => {
-    e.preventDefault();
+   const handleSubmit = () => {
+    
 
     const templateParams = {
       from_name: name,
